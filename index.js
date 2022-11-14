@@ -11,9 +11,25 @@ fetch("//apis.scrimba.com/jsonplaceholder/posts")
      <h3>${post.title}</h3>
     <p>${post.body}</p>
     <hr/>
-    
+
     `
   }
     document.getElementById("blog-list").innerHTML = html
     console.log(postsArr)
 })
+
+//button event listener
+
+document.getElementById("form").addEventListener("submit", f)
+
+const f = () => {
+  f.preventDefault()
+  const postTitle = document.getElementById("post-title").value
+  const postBody = document.getElementById("post-body").value
+  const data = {
+    title: postTitle,
+    body: postBody
+  }
+  console.log(data)
+
+}
