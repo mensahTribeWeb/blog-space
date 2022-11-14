@@ -34,18 +34,14 @@ const f = () => {
 }
 
 //add an option object via fetch api, POST
-
-fetch("url", {
+const options={
   method: "POST",
-  body: JSON.stringify(
-    {
-      title: "Buy Milk",
-      completed: false
-  
-    }),
+  body: JSON.stringify(data),
     headers: {
       "Content-Type": "application/json"
     }
+  }
+
+fetch("https://apis.scrimba.com/jsonplaceholder/posts", options)
     .then(res =>res.json())
-    .then(data => console.log(data))
-})
+    .then(data => {console.log(data)})
