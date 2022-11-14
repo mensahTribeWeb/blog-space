@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
   <title>BlogSpace</title>
 </head>
 <body>
-  <div id="blog-list"></div>
+  <Header>
+
+    <nav class="nav">
+      <h3>BlogSpace</h3>
+    </nav>
+  </Header>
+
+  <main class="main">
+    <form action="" class="blog-form">
+
+      <label id="post-title-label" for="post-title">Title:</label>
+      <input title="post-title" id="post-title" type="text">
+
+      <label for="post-body">Body: </label>
+      <textarea title="post-body" name="post-body" id="post-body" cols="30" rows="20"></textarea>
+
+      <button title="submit" type="submit" class="btn">Post</button>
+    </form>
+
+
+    <div id="blog-list"></div>
+  </main>
+
   <script src="index.js"></script>
 </body>
 </html>
