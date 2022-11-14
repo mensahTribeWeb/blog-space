@@ -28,9 +28,11 @@ body{
 #blog-list {
 
   padding-top: 30px 10px 10px;
+  width: 95%;
+  margin:0 auto;
 }
 
-.blog-form{
+#blog-form{
   display: flex;
   flex-direction: column;
   border: 1px solid black;
@@ -54,6 +56,7 @@ body{
 #post-title,
 #post-body{
   margin-bottom: 15px;
+  font-size: 1.2rem;;
 }
 
 .btn{
