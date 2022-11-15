@@ -20,7 +20,6 @@ Welcome to the mensahDomoah blog-space static HTML website
 
 ### Built With
 
-
 - HTML
 - CSS
 - ENDPOINTS
@@ -47,9 +46,9 @@ Github
 https://github.com/mensahTribeWeb
 
 Twitter
-https://twitter.com/MensahTribeWDev  
-## Acknowledgements
+https://twitter.com/MensahTribeWDev
 
+## Acknowledgements
 
 BoB Zirroll
 - https://scrimba.com/learn/frontend/async-js-intro-war-project-cob5042668cfe587321011d84
